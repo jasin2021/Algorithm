@@ -2,7 +2,7 @@
 # 1. 两数之和
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
         dct = {}
         for i, n in enumerate(nums):
             cp = target - n
